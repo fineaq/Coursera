@@ -72,7 +72,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
-
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
